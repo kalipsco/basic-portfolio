@@ -1,6 +1,32 @@
+body{
+
+	background-image: url(Assests/Images/rockywall.png);
+}
+
 header{
 
-	width: 900px;
+	width: 849px;
+
+	border: 1px ;
+
+	padding: 25px;
+
+	margin: 25px;
+
+	border-bottom-style: solid black;
+
+	background-color: #ffffff;
+
+}
+
+nav{
+
+	text-align: right
+}
+
+#alpha{
+	
+	width: 590px;
 
 	border: 1px solid black;
 
@@ -8,8 +34,56 @@ header{
 
 	margin: 25px;
 
-	outline-color: black
+	outline-color:#dddddd;
 
-	background-color: #ffffff;
+	float: left;
+}
+
+h2{
+
+	border-bottom-style: solid black;
+}
+
+#beta{
+
+	width: 320px;
+
+	border: 1px solid black;
+
+	padding: 25px;
+
+	margin: 25px;
+
+	outline-color:#dddddd;
+
+	float: right;
 
 }
+
+h3{
+
+	border-bottom-style: solid black;
+}
+
+footer{
+
+	width: 849px;
+
+	border: 1px ;
+
+	padding: 25px;
+
+	margin: 25px;
+
+	border-top-style: solid teal;
+
+	background-color: gray;
+
+	position: absolute;
+
+	bottom: 0px;
+
+	text-align: center;
+
+}
+
